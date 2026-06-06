@@ -1,6 +1,6 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-import { tanstackStart } from "@tanstack/react-start/plugin/vite";
+import { TanStackRouterVite } from '@tanstack/router-plugin/vite'
 import tsconfigPaths from "vite-tsconfig-paths";
 import tailwindcss from "@tailwindcss/vite";
 import path from "path";
@@ -11,9 +11,7 @@ const __dirname = path.dirname(__filename);
 
 export default defineConfig({
   plugins: [
-    tanstackStart({
-      server: { entry: "server" },
-    }),
+    TanStackRouterVite(),
     react(),
     tailwindcss(),
     tsconfigPaths(),
