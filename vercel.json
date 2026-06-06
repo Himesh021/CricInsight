@@ -1,0 +1,6 @@
+{
+  "buildCommand": "cd cricinsightAI && npm run build",
+  "installCommand": "cd cricinsightAI && npm install",
+  "outputDirectory": "cricinsightAI/dist",
+  "framework": "vite"
+}
