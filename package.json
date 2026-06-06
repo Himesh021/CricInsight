@@ -2,8 +2,8 @@
   "name": "crickketiq-root",
   "private": true,
   "scripts": {
-    "dev": "cd wicket-wise-wonders-14b4792c && npm run dev",
-    "build": "cd wicket-wise-wonders-14b4792c && npm run build",
-    "install": "cd wicket-wise-wonders-14b4792c && npm install"
+    "dev": "cd cricinsightAI && npm run dev",
+    "build": "cd cricinsightAI && npm run build",
+    "install": "cd cricinsightAI && npm install"
   }
 }
