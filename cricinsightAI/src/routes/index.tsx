@@ -92,7 +92,6 @@ function Index() {
   return (
     <PageShell
       title="RCB vs GT · Match Command Center"
-      subtitle="IPL 2026 · M. Chinnaswamy Stadium, Bengaluru — analytics, momentum and AI insights."
     >
       {/* Match hero */}
       <GlassCard className="overflow-hidden">
