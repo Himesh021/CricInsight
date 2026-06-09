@@ -112,7 +112,7 @@ function Index() {
             </div>
             <div>
               <div className="text-xs uppercase tracking-widest text-muted-foreground">
-                1st Innings
+                2nd Innings
               </div>
               <div className="text-2xl font-bold">{liveMatch.teamA.name}</div>
               <div className="text-3xl font-black" style={{ color: RCB }}>
@@ -134,7 +134,7 @@ function Index() {
           <div className="flex items-center gap-4">
             <div className="text-right">
               <div className="text-xs uppercase tracking-widest text-muted-foreground">
-                2nd Innings
+                1st Innings
               </div>
               <div className="text-2xl font-bold">{liveMatch.teamB.name}</div>
               <div className="text-3xl font-black" style={{ color: "#4A78B8" }}>
